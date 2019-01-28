@@ -16,7 +16,7 @@ public class HelloController {
         int b = 2;
         int c = a*b;
 
-        return "testA";
+        return "testAB";
 
     }
 
