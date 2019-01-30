@@ -2,6 +2,7 @@ package com.hdrtrr.jmh.user.service;
 
 import com.hdrtrr.jmh.dao.UserDao;
 import com.hdrtrr.jmh.entity.User;
+import com.hdrtrr.jmh.utils.response.ObjectResponse;
 import com.hdrtrr.jmh.utils.response.Response;
 import com.hdrtrr.jmh.utils.response.SuccessResponse;
 import org.springframework.stereotype.Service;
@@ -25,6 +26,6 @@ public class UserSeachService {
 
     public Response search() {
         List<User> all = userDao.findAll();
-        return new SuccessResponse("测试连接成功！");
+        return new ObjectResponse<>(all);
     }
 }
