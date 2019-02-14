@@ -2,15 +2,20 @@ package com.hdrtrr.jmh.user.service;
 
 import com.hdrtrr.jmh.dao.UserDao;
 import com.hdrtrr.jmh.entity.User;
+import com.hdrtrr.jmh.utils.page.NgData;
+import com.hdrtrr.jmh.utils.page.NgPager;
+import com.hdrtrr.jmh.utils.page.SearchFilter;
 import com.hdrtrr.jmh.utils.response.FailedResponse;
 import com.hdrtrr.jmh.utils.response.ObjectResponse;
 import com.hdrtrr.jmh.utils.response.Response;
-import com.hdrtrr.jmh.utils.response.SuccessResponse;
+import com.hdrtrr.jmh.utils.specification.DynamicSpecificationUtils;
+import com.hdrtrr.jmh.utils.specification.NgTempUtils;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -28,9 +33,14 @@ public class UserSeachService {
         this.userDao = userDao;
     }
 
-    public Response search() {
+    public NgData<User> search(NgPager pager) {
         List<User> all = userDao.findAll();
-        return new ObjectResponse<>(all);
+//        return new ObjectResponse<>(all);
+        Collection<SearchFilter> build = NgTempUtils.buildWhereClause(pager);
+        build.add(new SearchFilter("organizationId",SearchFilter.Operator.EQ,"123"));
+        return new NgData<>(
+                userDao.findAll(DynamicSpecificationUtils.bySearchFilter(build),NgTempUtils.buildPageRequest(pager)),pager
+        );
     }
 
     public Response addOne(User user) {

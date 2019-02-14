@@ -2,6 +2,8 @@ package com.hdrtrr.jmh.user.controller;
 
 import com.hdrtrr.jmh.entity.User;
 import com.hdrtrr.jmh.user.service.UserSeachService;
+import com.hdrtrr.jmh.utils.page.NgData;
+import com.hdrtrr.jmh.utils.page.NgPager;
 import com.hdrtrr.jmh.utils.response.Response;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,8 +31,8 @@ public class UserSearch {
      * @return
      */
     @RequestMapping(value = "search",method = {RequestMethod.GET,RequestMethod.POST})
-    public Response search() {
-        return userSeachService.search();
+    public NgData<User> search(@RequestBody NgPager pager) {
+        return userSeachService.search(pager);
     }
 
     /**
