@@ -1,10 +1,9 @@
 package com.hdrtrr.jmh.user.controller;
 
+import com.hdrtrr.jmh.entity.User;
 import com.hdrtrr.jmh.user.service.UserSeachService;
 import com.hdrtrr.jmh.utils.response.Response;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 /**
@@ -13,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @Version 1.0
  */
 
+@CrossOrigin
 @RequestMapping("/user/")
 @RestController
 public class UserSearch {
@@ -24,8 +24,21 @@ public class UserSearch {
         this.userSeachService = userSeachService;
     }
 
+    /**
+     * 用户查询
+     * @return
+     */
     @RequestMapping(value = "search",method = {RequestMethod.GET,RequestMethod.POST})
     public Response search() {
         return userSeachService.search();
+    }
+
+    /**
+     * 单个用户新增
+     * @return
+     */
+    @RequestMapping(value = "addOne",method = {RequestMethod.GET,RequestMethod.POST})
+    public Response addOne(@RequestBody User user) {
+        return userSeachService.addOne(user);
     }
 }

@@ -1,8 +1,12 @@
 package com.hdrtrr.jmh.entity;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 /**
  * @Author hdrtrr jmh
@@ -25,10 +29,44 @@ public class User {
     private String name;
 
     /**
-     * 姓名
+     * 性别
      */
     @Column(name="sex")
     private String sex;
+
+    /**
+     * 组织机构id
+     */
+    @Column(name="organization_id")
+    private String organizationId;
+
+    /**
+     * 组织机构名称
+     */
+    @Column(name="org_name")
+    private String orgName;
+
+    /**
+     * 创建日期
+     */
+    @Column(name="create_date")
+    @JSONField(format = "yyyy-MM-dd")
+    private LocalDate createDate;
+
+    /**
+     * 创建时间
+     */
+    @Column(name="create_time")
+    @JSONField(format = "HH:mm:ss")
+    private LocalTime createTime;
+
+    /**
+     * 修改时间
+     */
+    @Column(name="modifi_time")
+    @JSONField(format = "yyyy-MM-dd HH:mm:ss")
+    private LocalDateTime modifiTime;
+
 
     public String getId() {
         return id;
@@ -52,5 +90,45 @@ public class User {
 
     public void setSex(String sex) {
         this.sex = sex;
+    }
+
+    public String getOrganizationId() {
+        return organizationId;
+    }
+
+    public void setOrganizationId(String organizationId) {
+        this.organizationId = organizationId;
+    }
+
+    public String getOrgName() {
+        return orgName;
+    }
+
+    public void setOrgName(String orgName) {
+        this.orgName = orgName;
+    }
+
+    public LocalDate getCreateDate() {
+        return createDate;
+    }
+
+    public void setCreateDate(LocalDate createDate) {
+        this.createDate = createDate;
+    }
+
+    public LocalTime getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(LocalTime createTime) {
+        this.createTime = createTime;
+    }
+
+    public LocalDateTime getModifiTime() {
+        return modifiTime;
+    }
+
+    public void setModifiTime(LocalDateTime modifiTime) {
+        this.modifiTime = modifiTime;
     }
 }

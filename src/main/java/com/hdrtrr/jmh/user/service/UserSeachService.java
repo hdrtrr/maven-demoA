@@ -2,11 +2,15 @@ package com.hdrtrr.jmh.user.service;
 
 import com.hdrtrr.jmh.dao.UserDao;
 import com.hdrtrr.jmh.entity.User;
+import com.hdrtrr.jmh.utils.response.FailedResponse;
 import com.hdrtrr.jmh.utils.response.ObjectResponse;
 import com.hdrtrr.jmh.utils.response.Response;
 import com.hdrtrr.jmh.utils.response.SuccessResponse;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.List;
 
 /**
@@ -27,5 +31,16 @@ public class UserSeachService {
     public Response search() {
         List<User> all = userDao.findAll();
         return new ObjectResponse<>(all);
+    }
+
+    public Response addOne(User user) {
+        user.setCreateDate(LocalDate.now());
+        user.setCreateTime(LocalTime.now());
+        user.setModifiTime(LocalDateTime.now());
+        User save = userDao.save(user);
+        if (save != null){
+            return new ObjectResponse<>(save);
+        }
+        return new FailedResponse("操作失败！");
     }
 }
