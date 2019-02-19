@@ -2,16 +2,16 @@ package com.hdrtrr.jmh.utils.page;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 1:47
+ * @Date 2019/2/14 0014  ÏÂÎç 1:47
  * @Version 1.0
  */
 public class SortMeta {
     /**
-     * æ’åºå­—æ®µ
+     * ÅÅĞò×Ö¶Î
      */
     private String field;
     /**
-     * æ’åºæ–¹å¼
+     * ÅÅĞò·½Ê½
      */
     private int order;
 

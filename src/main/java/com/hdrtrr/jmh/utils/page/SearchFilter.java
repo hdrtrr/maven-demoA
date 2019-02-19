@@ -4,8 +4,8 @@ import java.util.Objects;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 2:19
- * åŠ¨æ€æŸ¥è¯¢å¯¹è±¡
+ * @Date 2019/2/14 0014  ÏÂÎç 2:19
+ * ¶¯Ì¬²éÑ¯¶ÔÏó
  * @Version 1.0
  */
 public class SearchFilter {
@@ -14,11 +14,11 @@ public class SearchFilter {
     private Operator operator;
 
     /**
-     * æŸ¥è¯¢æ¡ä»¶æšä¸¾
+     * ²éÑ¯Ìõ¼şÃ¶¾Ù
      */
     public enum Operator {
         /**
-         * ç­‰äº
+         * µÈÓÚ
          */
         EQ,
         /**
@@ -26,19 +26,19 @@ public class SearchFilter {
          */
         LIKE,
         /**
-         * å¤§äº
+         * ´óÓÚ
          */
         GT,
         /**
-         * å°äº
+         * Ğ¡ÓÚ
          */
         LT,
         /**
-         * å¤§äºç­‰äº
+         * ´óÓÚµÈÓÚ
          */
         GTE,
         /**
-         * å°äºç­‰äº
+         * Ğ¡ÓÚµÈÓÚ
          */
         LTE,
         /**
@@ -46,15 +46,15 @@ public class SearchFilter {
          */
         IN,
         /**
-         * å·¦ä¾§ like
+         * ×ó²à like
          */
         LLIKE,
         /**
-         * å³ä¾§ like
+         * ÓÒ²à like
          */
         RLIKE,
         /**
-         * ä¸ºnull
+         * Îªnull
          */
         ISNULL,
         /**
@@ -62,11 +62,11 @@ public class SearchFilter {
          */
         BETWEEN,
         /**
-         * ä¸ç­‰äº
+         * ²»µÈÓÚ
          */
         NOTEQ,
         /**
-         * ä¸æ˜¯null
+         * ²»ÊÇnull
          */
         ISNOTNULL;
     }

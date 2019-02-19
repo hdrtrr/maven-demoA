@@ -1,6 +1,8 @@
 package com.hdrtrr.jmh.user.service;
 
+import com.hdrtrr.jmh.dao.OrganizitionDao;
 import com.hdrtrr.jmh.dao.UserDao;
+import com.hdrtrr.jmh.entity.Organizition;
 import com.hdrtrr.jmh.entity.User;
 import com.hdrtrr.jmh.utils.page.NgData;
 import com.hdrtrr.jmh.utils.page.NgPager;
@@ -28,16 +30,17 @@ import java.util.List;
 public class UserSeachService {
 
     private final UserDao userDao;
+    private final OrganizitionDao organizitionDao;
 
-    public UserSeachService(UserDao userDao) {
+    public UserSeachService(UserDao userDao, OrganizitionDao organizitionDao) {
         this.userDao = userDao;
+        this.organizitionDao = organizitionDao;
     }
 
-    public NgData<User> search(NgPager pager) {
+    public NgData<User> search(NgPager pager, String orgId) {
         List<User> all = userDao.findAll();
-//        return new ObjectResponse<>(all);
         Collection<SearchFilter> build = NgTempUtils.buildWhereClause(pager);
-        build.add(new SearchFilter("organizationId",SearchFilter.Operator.EQ,"123"));
+        build.add(new SearchFilter("organizition.id",SearchFilter.Operator.EQ,orgId));
         return new NgData<>(
                 userDao.findAll(DynamicSpecificationUtils.bySearchFilter(build),NgTempUtils.buildPageRequest(pager)),pager
         );
@@ -52,5 +55,18 @@ public class UserSeachService {
             return new ObjectResponse<>(save);
         }
         return new FailedResponse("操作失败！");
+    }
+
+    /**
+     * 组织机构查询
+     * @return
+     */
+    public Response organizitionSearch() {
+
+        List<Organizition> orgs = organizitionDao.findAll();
+        if (orgs != null){
+        return new ObjectResponse<>(orgs);
+        }
+        return new FailedResponse("查询错误");
     }
 }

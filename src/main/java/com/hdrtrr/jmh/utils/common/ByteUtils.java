@@ -2,7 +2,7 @@ package com.hdrtrr.jmh.utils.common;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 4:22
+ * @Date 2019/2/14 0014  ÏÂÎç 4:22
  * @Version 1.0
  */
 public final class ByteUtils {

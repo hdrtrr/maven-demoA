@@ -4,34 +4,34 @@ import java.util.regex.Pattern;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 4:16
- * éªŒè¯
+ * @Date 2019/2/14 0014  ÏÂÎç 4:16
+ * ÑéÖ¤
  * @Version 1.0
  */
 public class Validation {
     /**
-     * æ‰‹æœºå·æ­£åˆ™
+     * ÊÖ»úºÅÕıÔò
      */
     private static final String PHONE_REGEX = "^((13[0-9])|(14[5,7,9])|(15([0-3]|[5-9]))|(166)|(17[0,1,3,5,6,7,8])|" +
             "(18[0-9])|(19[8|9]))\\d{8}$";
 
     /**
-     * èº«ä»½è¯æ­£åˆ™
+     * Éí·İÖ¤ÕıÔò
      */
     private static final String ID_REGEX = "^[1-9]\\d{5}(18|19|([23]\\d))\\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])" +
             "|10|20|30|31)\\d{3}[0-9Xx]$";
 
     /**
-     * é‚®ç®±æ­£åˆ™
+     * ÓÊÏäÕıÔò
      */
     private static final String MAIL_REGEX = "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)" +
             "+[a-zA-Z]{2,}$";
 
     /**
-     * æ˜¯å¦æ˜¯æ‰‹æœºå·
+     * ÊÇ·ñÊÇÊÖ»úºÅ
      *
-     * @param phone æ‰‹æœºå·
-     * @return æ˜¯è¿”å›trueï¼Œä¸æ˜¯è¿”å›false
+     * @param phone ÊÖ»úºÅ
+     * @return ÊÇ·µ»Øtrue£¬²»ÊÇ·µ»Øfalse
      */
     public static boolean isPhoneNum(String phone) {
         if (phone.length() != 11) {
@@ -42,20 +42,20 @@ public class Validation {
     }
 
     /**
-     * æ˜¯å¦æ˜¯èº«ä»½è¯å·
+     * ÊÇ·ñÊÇÉí·İÖ¤ºÅ
      *
-     * @param idCard èº«ä»½è¯
-     * @return æ˜¯è¿”å›trueï¼Œä¸æ˜¯è¿”å›false
+     * @param idCard Éí·İÖ¤
+     * @return ÊÇ·µ»Øtrue£¬²»ÊÇ·µ»Øfalse
      */
     public static boolean isIdCard(String idCard) {
         return Pattern.compile(ID_REGEX).matcher(idCard).matches();
     }
 
     /**
-     * æ˜¯å¦æ˜¯é‚®ç®±
+     * ÊÇ·ñÊÇÓÊÏä
      *
-     * @param mail é‚®ç®±
-     * @return æ˜¯è¿”å›trueï¼Œä¸æ˜¯è¿”å›false
+     * @param mail ÓÊÏä
+     * @return ÊÇ·µ»Øtrue£¬²»ÊÇ·µ»Øfalse
      */
     public static boolean isMail(String mail) {
         if (mail == null) {

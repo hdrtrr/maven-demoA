@@ -27,12 +27,21 @@ public class UserSearch {
     }
 
     /**
+     * 组织查询
+     * @return
+     */
+    @RequestMapping(value = "organizition/search",method = {RequestMethod.GET,RequestMethod.POST})
+    public Response organizitionSearch() {
+        return userSeachService.organizitionSearch();
+    }
+
+    /**
      * 用户查询
      * @return
      */
-    @RequestMapping(value = "search",method = {RequestMethod.GET,RequestMethod.POST})
-    public NgData<User> search(@RequestBody NgPager pager) {
-        return userSeachService.search(pager);
+    @RequestMapping(value = "search/{orgId}",method = {RequestMethod.GET,RequestMethod.POST})
+    public NgData<User> search(@RequestBody NgPager pager, @PathVariable("orgId") String orgId) {
+        return userSeachService.search(pager, orgId);
     }
 
     /**

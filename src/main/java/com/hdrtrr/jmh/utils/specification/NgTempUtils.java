@@ -18,8 +18,8 @@ import java.util.stream.Collectors;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 2:35
- * æŸ¥è¯¢æ¨¡æ¿å·¥å…·ç±»
+ * @Date 2019/2/14 0014  ÏÂÎç 2:35
+ * ²éÑ¯Ä£°å¹¤¾ßÀà
  * @Version 1.0
  */
 public class NgTempUtils {
@@ -27,9 +27,9 @@ public class NgTempUtils {
     public static final String ASC = "asc";
 
     /**
-     * æ ¹æ® NgPage æ„æˆæˆ  Collection<SearchFilter>å¯¹è±¡
+     * ¸ù¾İ NgPage ¹¹³É³É  Collection<SearchFilter>¶ÔÏó
      *
-     * @param pager åˆ†é¡µ
+     * @param pager ·ÖÒ³
      * @return Collection<SearchFilter>
      */
     public static Collection<SearchFilter> buildWhereClause(NgPager pager) {
@@ -44,7 +44,7 @@ public class NgTempUtils {
     }
 
     /**
-     * è®¾ç½®åˆ†é¡µ
+     * ÉèÖÃ·ÖÒ³
      *
      * @param pager fenye
      * @return #
@@ -65,7 +65,7 @@ public class NgTempUtils {
     }
 
     /**
-     * è®¾ç½®åˆ†é¡µ
+     * ÉèÖÃ·ÖÒ³
      *
      * @return #
      */
@@ -74,10 +74,10 @@ public class NgTempUtils {
     }
 
     /**
-     * æ¡ä»¶æŸ¥è¯¢ å°†å‰ç«¯ä¼ æ¥çš„æŸ¥è¯¢æ¨¡å¼ï¼ˆç­‰äºï¼Œä¸ç­‰...ï¼‰è½¬æ¢ä¸ºåå°å¯¹åº”çš„æŸ¥è¯¢æ¡ä»¶
+     * Ìõ¼ş²éÑ¯ ½«Ç°¶Ë´«À´µÄ²éÑ¯Ä£Ê½£¨µÈÓÚ£¬²»µÈ...£©×ª»»ÎªºóÌ¨¶ÔÓ¦µÄ²éÑ¯Ìõ¼ş
      *
      * @param matchMode NgMathMode
-     * @return Operatoræšä¸¾å¯¹è±¡
+     * @return OperatorÃ¶¾Ù¶ÔÏó
      */
     private static SearchFilter.Operator parse(String matchMode) {
         if (matchMode == null) {

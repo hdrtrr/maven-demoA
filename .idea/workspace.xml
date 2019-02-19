@@ -2,24 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4316cf16-5298-4a06-9480-3f36ff620229" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/SysConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/ByteUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Md5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Validation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgMathMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgPager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/SearchFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/SortMeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/DynamicSpecificationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/NgTempUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/dao/OrganizitionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/Organizition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandshake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyWebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/WebsochetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/service/WebsochetTestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/try_test/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/try_test/controller/HelloController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/controller/UserSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/controller/UserSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/service/UserSeachService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/service/UserSeachService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/SysConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/SysConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/ByteUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/ByteUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Md5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgMathMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgMathMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgPager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgPager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/SearchFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/SearchFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/SortMeta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/SortMeta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/DynamicSpecificationUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/DynamicSpecificationUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/NgTempUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/NgTempUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,26 +54,16 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="maven-demoA" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/service/UserSeachService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Md5Util.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/WebsochetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="-133">
+              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,52 +72,98 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/security/MessageDigest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/try_test/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2892">
-              <caret line="221" column="43" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Validation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-157">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/ByteUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-              <folding>
-                <element signature="e#10976#10977#0" expanded="true" />
-                <element signature="e#11035#11036#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="84">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1688#1689#0" expanded="true" />
-                <element signature="e#1725#1726#0" expanded="true" />
-                <element signature="e#2373#2374#0" expanded="true" />
-                <element signature="e#2406#2407#0" expanded="true" />
-                <element signature="e#2465#2466#0" expanded="true" />
-                <element signature="e#2509#2510#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/service/WebsochetTestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandshake.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-websocket/5.0.5.RELEASE/spring-websocket-5.0.5.RELEASE.jar!/org/springframework/web/socket/adapter/AbstractWebSocketSession.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyWebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -129,6 +176,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>checkcentersys</find>
+      <find>sendInfo</find>
+      <find>plugin</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
@@ -139,7 +193,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/try_test/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/try_test/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/controller/UserSerch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/response/Response.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/response/SuccessResponse.java" />
@@ -147,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/response/FailedResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.properties" />
@@ -156,16 +208,29 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgPager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/SearchFilter.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/DynamicSpecificationUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/controller/UserSearch.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/SysConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/page/NgMathMode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/specification/NgTempUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/service/UserSeachService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Validation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/ByteUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Md5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/Organizition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/dao/OrganizitionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/controller/UserSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/service/UserSeachService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/service/UserSeachService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/UserSearch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/service/WebsochetTestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandshake.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyWebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/try_test/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/WebsochetTest.java" />
       </list>
     </option>
   </component>
@@ -178,12 +243,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="maven-demoA" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -200,7 +260,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,6 +271,11 @@
             <path>
               <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,7 +327,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
               <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
+              <item name="try_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
@@ -274,18 +338,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
               <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="try_test" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -298,42 +351,41 @@
               <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
               <item name="jmh" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket_test" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
+              <item name="jmh" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket_test" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="response" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven-demoA" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="hdrtrr" type="462c0819:PsiDirectoryNode" />
-              <item name="jmh" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="specification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maven-demoA" type="b2602c69:ProjectViewProjectNode" />
@@ -346,6 +398,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,17 +408,23 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550133177068" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550568501392" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hdrtrr.jmh.websocket_test.service" />
+      <recent name="com.hdrtrr.jmh.websocket_test.controller" />
+      <recent name="com.hdrtrr.jmh.dao" />
+      <recent name="com.hdrtrr.jmh.entity" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\springCloud\maven-demoA\src\main\resources" />
       <recent name="C:\springCloud\maven-demoA\src\main\java" />
@@ -383,7 +442,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Md5Util">
+  <component name="RunManager" selected="Spring Boot.Application">
     <configuration name="Md5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hdrtrr.jmh.utils.common.Md5Util" />
       <module name="maven-demoA" />
@@ -426,14 +485,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Md5Util" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.HelloController" />
-      <item itemvalue="Application.Md5Util" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Md5Util" />
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Application.Md5Util" />
         <item itemvalue="Spring Boot.HelloController" />
       </list>
     </recent_temporary>
@@ -465,6 +524,15 @@
       <workItem from="1550113313949" duration="770000" />
       <workItem from="1550114304973" duration="7317000" />
       <workItem from="1550128083477" duration="5404000" />
+      <workItem from="1550193726401" duration="13651000" />
+      <workItem from="1550452782971" duration="287000" />
+      <workItem from="1550460438170" duration="11336000" />
+      <workItem from="1550541544891" duration="8051000" />
+      <workItem from="1550559018022" duration="1191000" />
+      <workItem from="1550560839941" duration="144000" />
+      <workItem from="1550561080978" duration="449000" />
+      <workItem from="1550561703241" duration="755000" />
+      <workItem from="1550562652746" duration="5611000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1548657023381</created>
@@ -526,23 +594,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57219000" />
+    <option name="totallyTimeSpent" value="98694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="0" width="1004" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35911018" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.43644068" />
+      <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.4269068" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50180507" side_tool="true" weight="0.4269068" />
+      <window_info id="Web" order="7" sideWeight="0.5017361" side_tool="true" weight="0.40789473" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40794224" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989796" weight="0.06317689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40794224" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989796" visible="true" weight="0.25451264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -557,7 +626,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.16020408" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.15995763" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.32944915" />
@@ -627,36 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/try_test/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -671,38 +710,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/com/sun/jndi/toolkit/dir/SearchFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/controller/UserSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -815,36 +826,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#2373#2374#0" expanded="true" />
-            <element signature="e#2406#2407#0" expanded="true" />
-            <element signature="e#2465#2466#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/service/UserSeachService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/ByteUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="506">
           <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
           <folding>
             <element signature="e#10976#10977#0" expanded="true" />
@@ -853,24 +844,234 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Validation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Md5Util.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-157">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="110">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/security/MessageDigest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2892">
-          <caret line="221" column="43" selection-start-line="221" selection-start-column="32" selection-end-line="221" selection-end-column="43" />
+        <state relative-caret-position="110">
+          <caret line="160" column="20" selection-start-line="160" selection-start-column="20" selection-end-line="160" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/utils/common/Md5Util.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="25" />
+        <state relative-caret-position="88">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/Organizition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/service/UserSeachService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2480">
+          <caret line="141" column="84" selection-start-line="141" selection-start-column="84" selection-end-line="141" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/user/controller/UserSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/dao/OrganizitionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/5.0.5.RELEASE/spring-webmvc-5.0.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="477" column="17" lean-forward="true" selection-start-line="477" selection-start-column="17" selection-end-line="477" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-websocket/5.0.5.RELEASE/spring-websocket-5.0.5.RELEASE.jar!/org/springframework/web/socket/server/support/WebSocketHttpRequestHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-websocket/5.0.5.RELEASE/spring-websocket-5.0.5.RELEASE.jar!/org/springframework/web/socket/server/support/HandshakeInterceptorChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1580">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/service/WebsochetTestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-websocket/5.0.5.RELEASE/spring-websocket-5.0.5.RELEASE.jar!/org/springframework/web/socket/WebSocketSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/try_test/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyWebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandshake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-websocket/5.0.5.RELEASE/spring-websocket-5.0.5.RELEASE.jar!/org/springframework/web/socket/adapter/AbstractWebSocketSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/WebsochetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

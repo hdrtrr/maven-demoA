@@ -10,24 +10,4 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 public class HelloController {
 
-    @RequestMapping("testA")
-    String testA() {
-        int a = 1;
-        int b = 2;
-        int c = a*b;
-
-        return "testABC";
-
-    }
-
-
-
-    @RequestMapping("hello")
-    String hello() {
-        return "Hello World123!";
-    }
-
-    public static void main(String[] args) {
-        SpringApplication.run(HelloController.class,args);
-    }
 }

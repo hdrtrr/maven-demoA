@@ -2,42 +2,42 @@ package com.hdrtrr.jmh.utils;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 2:38
- * ç³»ç»Ÿå¸¸é‡å®šä¹‰
+ * @Date 2019/2/14 0014  ÏÂÎç 2:38
+ * ÏµÍ³³£Á¿¶¨Òå
  * @Version 1.0
  */
 public class SysConstants {
-    public static final String ENTITY_MUST_NOT_BE_NULL = "å®ä½“ä¸èƒ½ä¸ºç©ºï¼";
+    public static final String ENTITY_MUST_NOT_BE_NULL = "ÊµÌå²»ÄÜÎª¿Õ£¡";
     /**
-     * é”ï¼Œæ˜¯å¦æ­£åœ¨å……å€¼
+     * Ëø£¬ÊÇ·ñÕıÔÚ³äÖµ
      */
     public static final String IS_RECHARGE = "is_recharge";
     /**
-     * å­—ç¬¦ä¸² true
+     * ×Ö·û´® true
      */
     public static final String TRUE = "true";
     /**
-     * å­—ç¬¦ä¸² false
+     * ×Ö·û´® false
      */
     public static final String FALSE = "false";
     /**
-     * ä¸šä¸»id
+     * ÒµÖ÷id
      */
     public static final String USER_ROLE_OWNER_ID = "1001";
     /**
-     * åº—å®¶id
+     * µê¼Òid
      */
     public static final String USER_ROLE_STORE_ID = "2001";
     /**
-     * é‚®ç®± host
+     * ÓÊÏä host
      */
     public static final String MAIL_HOST = "mail.smtp.host";
     /**
-     * é‚®ç®± auth
+     * ÓÊÏä auth
      */
     public static final String MAIL_AUTH = "mail.smtp.auth";
     /**
-     * é‚®ç®± ssl
+     * ÓÊÏä ssl
      */
     public static final String MAIL_SSL = "mail.smtp.ssl.enable";
 }

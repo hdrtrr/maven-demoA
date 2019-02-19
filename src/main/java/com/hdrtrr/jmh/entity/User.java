@@ -37,14 +37,11 @@ public class User {
     /**
      * 组织机构id
      */
-    @Column(name="organization_id")
-    private String organizationId;
+//    @Column(name="organization_id")
+    @ManyToOne
+    @JoinColumn(name = "organizationId")
+    private Organizition organizition;
 
-    /**
-     * 组织机构名称
-     */
-    @Column(name="org_name")
-    private String orgName;
 
     /**
      * 创建日期
@@ -92,20 +89,12 @@ public class User {
         this.sex = sex;
     }
 
-    public String getOrganizationId() {
-        return organizationId;
+    public Organizition getOrganizition() {
+        return organizition;
     }
 
-    public void setOrganizationId(String organizationId) {
-        this.organizationId = organizationId;
-    }
-
-    public String getOrgName() {
-        return orgName;
-    }
-
-    public void setOrgName(String orgName) {
-        this.orgName = orgName;
+    public void setOrganizition(Organizition organizition) {
+        this.organizition = organizition;
     }
 
     public LocalDate getCreateDate() {

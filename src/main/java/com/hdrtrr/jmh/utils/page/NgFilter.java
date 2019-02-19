@@ -2,17 +2,17 @@ package com.hdrtrr.jmh.utils.page;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 1:48
+ * @Date 2019/2/14 0014  ÏÂÎç 1:48
  * @Version 1.0
  */
 public class NgFilter {
 
     /**
-     * è¦æŸ¥è¯¢çš„å€¼
+     * Òª²éÑ¯µÄÖµ
      */
     private String value;
     /**
-     * åŒ¹é…æ¨¡å¼
+     * Æ¥ÅäÄ£Ê½
      */
     private String matchMode;
 

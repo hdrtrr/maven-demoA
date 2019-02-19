@@ -5,15 +5,15 @@ import java.security.MessageDigest;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 4:19
+ * @Date 2019/2/14 0014  ÏÂÎç 4:19
  * @Version 1.0
  */
 public class Md5Util {
     /**
-     * MD5åŠ å¯†å­—ç¬¦ä¸²
+     * MD5¼ÓÃÜ×Ö·û´®
      *
-     * @param str æºå­—ç¬¦ä¸²
-     * @return åŠ å¯†åçš„å­—ç¬¦ä¸²
+     * @param str Ô´×Ö·û´®
+     * @return ¼ÓÃÜºóµÄ×Ö·û´®
      */
     public static String encryptToMD5(String str) {
         String hexStr = "";
@@ -32,7 +32,7 @@ public class Md5Util {
     // test main
     public static void main(String[] args) {
         String s = "124565ss5";
-        String s1 = encryptToMD5(s);
+        String s1 = encryptToMD5(encryptToMD5(s));
         System.out.println(s1);
     }
 

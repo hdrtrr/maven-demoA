@@ -2,29 +2,29 @@ package com.hdrtrr.jmh.utils.page;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 2:41
- * æŸ¥è¯¢æ–¹å¼
+ * @Date 2019/2/14 0014  ÏÂÎç 2:41
+ * ²éÑ¯·½Ê½
  * @Version 1.0
  */
 public interface NgMathMode {
     /**
-     * åŒ…å«
+     * °üº¬
      */
     String CONTAINS = "contains";
     /**
-     * ä»¥xxå¼€å§‹
+     * ÒÔxx¿ªÊ¼
      */
     String STARTS_WITH = "startsWith";
     /**
-     * ä»¥xxç»“æŸ
+     * ÒÔxx½áÊø
      */
     String ENDS_WITH = "endsWith";
     /**
-     * ç­‰äº
+     * µÈÓÚ
      */
     String EQUALS = "equals";
     /**
-     * åœ¨åˆ—è¡¨ä¸­
+     * ÔÚÁĞ±íÖĞ
      */
     String IN = "in";
     /**
@@ -36,20 +36,20 @@ public interface NgMathMode {
      */
     String ISNOTNULL = "isNotNull";
     /**
-     * å°äº
+     * Ğ¡ÓÚ
      */
     String LT = "lt";
     /**
-     * å¤§äº
+     * ´óÓÚ
      */
     String GT = "gt";
 
     /**
-     * å¤§äºç­‰äº
+     * ´óÓÚµÈÓÚ
      */
     String GTE = "gte";
     /**
-     * å°äºç­‰äº
+     * Ğ¡ÓÚµÈÓÚ
      */
     String LTE = "lte";
 

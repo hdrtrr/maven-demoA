@@ -16,30 +16,30 @@ import java.util.*;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 2:15
- *  åŸºäºJPAçš„SpecificationåŠ¨æ€æŸ¥è¯¢
+ * @Date 2019/2/14 0014  ÏÂÎç 2:15
+ *  »ùÓÚJPAµÄSpecification¶¯Ì¬²éÑ¯
  * @Version 1.0
  */
 public class DynamicSpecificationUtils {
 
     /**
-     * æ—¥æœŸæ ¼å¼
+     * ÈÕÆÚ¸ñÊ½
      */
     private static final String DATE = "yyyy-MM-dd";
     /**
-     * æ—¥æœŸæ—¶é—´æ ¼å¼
+     * ÈÕÆÚÊ±¼ä¸ñÊ½
      */
     private static final String DATE_TIME = "yyyy-MM-dd HH:mm:ss";
     /**
-     * æ—¶é—´æ ¼å¼
+     * Ê±¼ä¸ñÊ½
      */
     private static final String TIME = "HH:mm:ss";
 
     /**
-     * æ„å»ºæŸ¥è¯¢
+     * ¹¹½¨²éÑ¯
      *
-     * @param filterSet æ¡ä»¶
-     * @param <T>       æ•°æ®
+     * @param filterSet Ìõ¼ş
+     * @param <T>       Êı¾İ
      * @return .
      */
     private static <T> Specification<T> bySearchFilter(final Set<SearchFilter> filterSet) {
@@ -52,7 +52,7 @@ public class DynamicSpecificationUtils {
                     for (int i = 1; i < names.length; i++) {
                         expression = expression.get(names[i]);
                     }
-                    // è‡ªåŠ¨è¿›è¡Œenumå’Œdateçš„è½¬æ¢ã€‚
+                    // ×Ô¶¯½øĞĞenumºÍdateµÄ×ª»»¡£
                     Class clazz = expression.getJavaType();
                     if (Date.class.isAssignableFrom(clazz) && !filter.getValue().getClass().equals(clazz)) {
                         filter.setValue(convert2Date((String) filter.getValue()));
@@ -126,7 +126,7 @@ public class DynamicSpecificationUtils {
                             predicates.add(b.equal(expression, filter.getValue()));
                     }
                 }
-                // å°†æ‰€æœ‰æ¡ä»¶ç”¨ and è”åˆèµ·æ¥
+                // ½«ËùÓĞÌõ¼şÓÃ and ÁªºÏÆğÀ´
                 if (predicates.size() > 0) {
                     return b.and(predicates.toArray(new Predicate[0]));
                 }
@@ -136,9 +136,9 @@ public class DynamicSpecificationUtils {
     }
 
     /**
-     * æ„å»ºSpecificationå¤æ‚æŸ¥è¯¢æ¡ä»¶
+     * ¹¹½¨Specification¸´ÔÓ²éÑ¯Ìõ¼ş
      *
-     * @param searchFilters æŸ¥è¯¢æ¡ä»¶
+     * @param searchFilters ²éÑ¯Ìõ¼ş
      * @param <T>           t
      * @return Specification
      */

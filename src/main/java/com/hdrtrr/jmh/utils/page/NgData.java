@@ -6,34 +6,34 @@ import java.util.List;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 12:00
- * åˆ†é¡µæŸ¥è¯¢å‡ºæ¥çš„æ•°æ®å°è£…å¯¹è±¡
+ * @Date 2019/2/14 0014  ÏÂÎç 12:00
+ * ·ÖÒ³²éÑ¯³öÀ´µÄÊı¾İ·â×°¶ÔÏó
  * @Version 1.0
  */
 public class NgData<T> {
 
     /**
-     * æŸ¥å‡ºæ¥çš„æ•°æ®å¯¹è±¡
+     * ²é³öÀ´µÄÊı¾İ¶ÔÏó
      */
     private List<T> data;
     /**
-     * ä¸æ¸…æ¥š
+     * ²»Çå³ş
      */
     private int draw = 1;
     /**
-     * æ€»è¡Œæ•°
+     * ×ÜĞĞÊı
      */
     private Long totalRecords = 0L;
     /**
-     * ä¸æ¸…æ¥š
+     * ²»Çå³ş
      */
     private Long filteredValue = 0L;
     /**
-     * ä¸æ¸…æ¥š
+     * ²»Çå³ş
      */
     private Integer flag;
     /**
-     * é”™è¯¯ä¿¡æ¯
+     * ´íÎóĞÅÏ¢
      */
     private String error = "";
 

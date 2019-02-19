@@ -5,37 +5,37 @@ import java.util.Map;
 
 /**
  * @Author hdrtrr jmh
- * @Date 2019/2/14 0014  ä¸‹åˆ 1:46
+ * @Date 2019/2/14 0014  ÏÂÎç 1:46
  * @Version 1.0
  */
 public class NgPager {
 
     /**
-     * åˆ†é¡µèµ·å§‹ä¸ªæ•°
+     * ·ÖÒ³ÆğÊ¼¸öÊı
      */
     private int first = 0;
     /**
-     * åˆ†é¡µçš„ä¸ªæ•°
+     * ·ÖÒ³µÄ¸öÊı
      */
     private int rows = 10;
     /**
-     * æ’åºå­—æ®µ
+     * ÅÅĞò×Ö¶Î
      */
     private String sortField;
     /**
-     * æ’åºå­—æ®µï¼Œ1è¡¨ç¤ºascï¼Œ-1è¡¨ç¤ºdesc
+     * ÅÅĞò×Ö¶Î£¬1±íÊ¾asc£¬-1±íÊ¾desc
      */
     private int sortOrder;
     /**
-     * å…¨å±€æœç´¢å­—æ®µ
+     * È«¾ÖËÑË÷×Ö¶Î
      */
     private Object globalFilter;
     /**
-     * å¤šé¡¹æ’åºæ¡ä»¶
+     * ¶àÏîÅÅĞòÌõ¼ş
      */
     private SortMeta[] multiSortMeta;
     /**
-     * æŸ¥è¯¢æ¡ä»¶
+     * ²éÑ¯Ìõ¼ş
      */
     private Map<String, NgFilter> filters;
 
