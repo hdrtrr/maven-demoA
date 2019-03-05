@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandshake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyWebSocketConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
+            <state relative-caret-position="380">
               <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+            <state relative-caret-position="381">
+              <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/WebsochetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+            <state relative-caret-position="400">
+              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/WebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
+            <state relative-caret-position="300">
               <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -503,7 +503,7 @@
       <workItem from="1550717851407" duration="12467000" />
       <workItem from="1550803016624" duration="960000" />
       <workItem from="1550817822266" duration="1204000" />
-      <workItem from="1551665690817" duration="6022000" />
+      <workItem from="1551665690817" duration="6139000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1548657023381</created>
@@ -575,14 +575,22 @@
       <option name="project" value="LOCAL" />
       <updated>1551753605055</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="websocket">
+      <created>1551754192107</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551754192107</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120207000" />
+    <option name="totallyTimeSpent" value="120324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="0" width="1004" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.36122882" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.4269068" />
@@ -595,7 +603,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.40794224" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989796" visible="true" weight="0.25090253" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989796" weight="0.25090253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1086,8 +1094,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        <state relative-caret-position="241">
+          <caret line="113" column="21" lean-forward="true" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
