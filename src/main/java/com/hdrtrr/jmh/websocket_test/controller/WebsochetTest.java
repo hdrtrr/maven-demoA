@@ -29,6 +29,7 @@ public class WebsochetTest {
 
     @RequestMapping("/login")
     public Response login(HttpServletRequest request) {
+        System.out.println("===========1=====");
 //        if (user.getName() == null){
 //            return new FailedResponse("用户不能为空");
 //        }
