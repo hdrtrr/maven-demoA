@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4316cf16-5298-4a06-9480-3f36ff620229" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyHandshake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyWebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/MyWebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/WebsochetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hdrtrr/jmh/websocket_test/controller/WebsochetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -508,7 +503,7 @@
       <workItem from="1550717851407" duration="12467000" />
       <workItem from="1550803016624" duration="960000" />
       <workItem from="1550817822266" duration="1204000" />
-      <workItem from="1551665690817" duration="5450000" />
+      <workItem from="1551665690817" duration="6022000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1548657023381</created>
@@ -573,15 +568,21 @@
       <option name="project" value="LOCAL" />
       <updated>1550568613721</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="websocket">
+      <created>1551753605055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551753605055</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119635000" />
+    <option name="totallyTimeSpent" value="120207000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="0" width="1004" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49819493" visible="true" weight="0.36122882" />
       <window_info id="Structure" order="1" sideWeight="0.50180507" side_tool="true" weight="0.4269068" />
